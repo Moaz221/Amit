@@ -1,0 +1,5 @@
+words = input("Enter a String : ")
+list_Of_Words = words.split()
+list_Of_Words.reverse()
+result = " ".join(list_Of_Words)
+print(result)
